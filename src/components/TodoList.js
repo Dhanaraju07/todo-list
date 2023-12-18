@@ -40,7 +40,7 @@ const TodoList = () => {
             id: editUser,
             username,
             email
-        }
+        };
         const updatedUserData = users.map((each) => {
             return each.id === editUser ? updatedUser : each
         })
